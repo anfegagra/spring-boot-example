@@ -1,1 +1,3 @@
 # spring-boot-example
+
+Ejemplo de spring boot utilizando swagger, exception handler, filter, interceptor, ...

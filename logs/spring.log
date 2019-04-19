@@ -1,0 +1,138 @@
+2019-04-19 14:23:46.333  INFO 14268 --- [main] com.example.app.AppApplication           : Starting AppApplication on ANDRESF-GRANADOS with PID 14268 (D:\pipe\Colpatria\app\bin\main started by andres.granados in D:\pipe\Colpatria\app)
+2019-04-19 14:23:46.337  INFO 14268 --- [main] com.example.app.AppApplication           : No active profile set, falling back to default profiles: default
+2019-04-19 14:23:48.155  INFO 14268 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-04-19 14:23:48.239  INFO 14268 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-04-19 14:23:48.240  INFO 14268 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-19 14:23:48.638  INFO 14268 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-04-19 14:23:48.639  INFO 14268 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2260 ms
+2019-04-19 14:23:49.058  INFO 14268 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-19 14:23:49.263  INFO 14268 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-04-19 14:23:49.267  INFO 14268 --- [main] com.example.app.AppApplication           : Started AppApplication in 3.863 seconds (JVM running for 9.275)
+2019-04-19 14:23:53.357  INFO 14268 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-19 14:23:53.358  INFO 14268 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-04-19 14:23:53.368  INFO 14268 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2019-04-19 14:23:53.412  INFO 14268 --- [http-nio-8080-exec-1] c.e.app.controller.ProductController     : Se hace petición GET
+2019-04-19 15:23:54.303  INFO 14268 --- [RMI TCP Connection(23)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-04-19 15:23:54.313  INFO 14268 --- [RMI TCP Connection(23)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-19 15:24:06.910  INFO 18268 --- [main] com.example.app.AppApplication           : Starting AppApplication on ANDRESF-GRANADOS with PID 18268 (D:\pipe\Colpatria\app\bin\main started by andres.granados in D:\pipe\Colpatria\app)
+2019-04-19 15:24:06.916  INFO 18268 --- [main] com.example.app.AppApplication           : No active profile set, falling back to default profiles: default
+2019-04-19 15:24:09.432  INFO 18268 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-04-19 15:24:09.478  INFO 18268 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-04-19 15:24:09.480  INFO 18268 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-19 15:24:09.710  INFO 18268 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-04-19 15:24:09.711  INFO 18268 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2721 ms
+2019-04-19 15:24:10.399  INFO 18268 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-04-19 15:24:10.609  INFO 18268 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-19 15:24:10.983  INFO 18268 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-04-19 15:24:11.019  INFO 18268 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-04-19 15:24:11.116  INFO 18268 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-04-19 15:24:11.432  INFO 18268 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-04-19 15:24:11.441  INFO 18268 --- [main] com.example.app.AppApplication           : Started AppApplication in 5.208 seconds (JVM running for 10.331)
+2019-04-19 15:25:28.100  INFO 18268 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-19 15:25:28.101  INFO 18268 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-04-19 15:25:28.118  INFO 18268 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 17 ms
+2019-04-19 15:26:45.494  INFO 18268 --- [http-nio-8080-exec-3] c.e.app.controller.ProductController     : Se hace petición DELETE
+2019-04-19 15:27:12.954  INFO 18268 --- [http-nio-8080-exec-5] c.e.app.controller.ProductController     : Se hace petición GET
+2019-04-19 15:28:09.254  INFO 18268 --- [http-nio-8080-exec-2] c.e.app.controller.ProductController     : Se hace petición POST
+2019-04-19 15:28:18.197  INFO 18268 --- [http-nio-8080-exec-9] c.e.app.controller.ProductController     : Se hace petición GET
+2019-04-19 16:15:11.732  INFO 18268 --- [RMI TCP Connection(25)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-04-19 16:15:11.742  INFO 18268 --- [RMI TCP Connection(25)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-19 16:15:21.906  INFO 17644 --- [main] com.example.app.AppApplication           : Starting AppApplication on ANDRESF-GRANADOS with PID 17644 (D:\pipe\Colpatria\app\bin\main started by andres.granados in D:\pipe\Colpatria\app)
+2019-04-19 16:15:21.910  INFO 17644 --- [main] com.example.app.AppApplication           : No active profile set, falling back to default profiles: default
+2019-04-19 16:15:23.623  INFO 17644 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-04-19 16:15:23.667  INFO 17644 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-04-19 16:15:23.668  INFO 17644 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-19 16:15:23.924  INFO 17644 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-04-19 16:15:23.925  INFO 17644 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1969 ms
+2019-04-19 16:15:24.530  INFO 17644 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-04-19 16:15:24.664  INFO 17644 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-19 16:15:24.826  INFO 17644 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-04-19 16:15:24.847  INFO 17644 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-04-19 16:15:24.901  INFO 17644 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-04-19 16:15:25.247  INFO 17644 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-04-19 16:15:25.250  INFO 17644 --- [main] com.example.app.AppApplication           : Started AppApplication in 3.746 seconds (JVM running for 8.348)
+2019-04-19 16:15:32.061  INFO 17644 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-19 16:15:32.062  INFO 17644 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-04-19 16:15:32.078  INFO 17644 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 15 ms
+2019-04-19 16:15:32.116  INFO 17644 --- [http-nio-8080-exec-1] c.e.app.controller.ProductController     : Se hace petición GET
+2019-04-19 16:15:49.068  INFO 17644 --- [RMI TCP Connection(6)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-04-19 16:15:49.077  INFO 17644 --- [RMI TCP Connection(6)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-19 16:15:58.799  INFO 14724 --- [main] com.example.app.AppApplication           : Starting AppApplication on ANDRESF-GRANADOS with PID 14724 (D:\pipe\Colpatria\app\bin\main started by andres.granados in D:\pipe\Colpatria\app)
+2019-04-19 16:15:58.802  INFO 14724 --- [main] com.example.app.AppApplication           : No active profile set, falling back to default profiles: default
+2019-04-19 16:16:00.802  INFO 14724 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-04-19 16:16:00.900  INFO 14724 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-04-19 16:16:00.902  INFO 14724 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-19 16:16:01.222  INFO 14724 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-04-19 16:16:01.223  INFO 14724 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2374 ms
+2019-04-19 16:16:02.160  INFO 14724 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-04-19 16:16:02.283  INFO 14724 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-19 16:16:02.422  INFO 14724 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-04-19 16:16:02.443  INFO 14724 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-04-19 16:16:02.497  INFO 14724 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-04-19 16:16:02.878  INFO 14724 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-04-19 16:16:02.883  INFO 14724 --- [main] com.example.app.AppApplication           : Started AppApplication in 4.527 seconds (JVM running for 8.11)
+2019-04-19 16:16:05.605  INFO 14724 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-19 16:16:05.607  INFO 14724 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-04-19 16:16:05.630  INFO 14724 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 21 ms
+2019-04-19 16:16:05.703  INFO 14724 --- [http-nio-8080-exec-1] c.e.app.controller.ProductController     : Se hace petición GET
+2019-04-19 16:16:44.108  INFO 14724 --- [http-nio-8080-exec-3] c.e.app.controller.ProductController     : Se hace petición GET
+2019-04-19 16:18:00.398  INFO 14724 --- [RMI TCP Connection(8)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-04-19 16:18:00.410  INFO 14724 --- [RMI TCP Connection(8)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-19 16:18:13.764  INFO 18256 --- [main] com.example.app.AppApplication           : Starting AppApplication on ANDRESF-GRANADOS with PID 18256 (D:\pipe\Colpatria\app\bin\main started by andres.granados in D:\pipe\Colpatria\app)
+2019-04-19 16:18:13.768  INFO 18256 --- [main] com.example.app.AppApplication           : No active profile set, falling back to default profiles: default
+2019-04-19 16:18:16.747  INFO 18256 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-04-19 16:18:16.836  INFO 18256 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-04-19 16:18:16.837  INFO 18256 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-19 16:18:17.045  INFO 18256 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-04-19 16:18:17.046  INFO 18256 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3212 ms
+2019-04-19 16:18:18.146  INFO 18256 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-04-19 16:18:18.412  INFO 18256 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-19 16:18:18.706  INFO 18256 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-04-19 16:18:18.748  INFO 18256 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-04-19 16:18:18.876  INFO 18256 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-04-19 16:18:19.280  INFO 18256 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-04-19 16:18:19.284  INFO 18256 --- [main] com.example.app.AppApplication           : Started AppApplication in 6.115 seconds (JVM running for 11.981)
+2019-04-19 16:18:28.031  INFO 18256 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-19 16:18:28.032  INFO 18256 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-04-19 16:18:28.065  INFO 18256 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 31 ms
+2019-04-19 16:18:28.107  INFO 18256 --- [http-nio-8080-exec-1] c.e.app.controller.ProductController     : Se hace petición GET
+2019-04-19 16:18:43.414  INFO 18256 --- [RMI TCP Connection(7)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-04-19 16:18:43.426  INFO 18256 --- [RMI TCP Connection(7)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-19 16:18:53.122  INFO 10036 --- [main] com.example.app.AppApplication           : Starting AppApplication on ANDRESF-GRANADOS with PID 10036 (D:\pipe\Colpatria\app\bin\main started by andres.granados in D:\pipe\Colpatria\app)
+2019-04-19 16:18:53.126  INFO 10036 --- [main] com.example.app.AppApplication           : No active profile set, falling back to default profiles: default
+2019-04-19 16:18:55.016  INFO 10036 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-04-19 16:18:55.059  INFO 10036 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-04-19 16:18:55.060  INFO 10036 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-19 16:18:55.331  INFO 10036 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-04-19 16:18:55.332  INFO 10036 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2159 ms
+2019-04-19 16:18:55.842  INFO 10036 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-04-19 16:18:56.054  INFO 10036 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-19 16:18:56.311  INFO 10036 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-04-19 16:18:56.342  INFO 10036 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-04-19 16:18:56.395  INFO 10036 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-04-19 16:18:56.690  INFO 10036 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-04-19 16:18:56.695  INFO 10036 --- [main] com.example.app.AppApplication           : Started AppApplication in 3.957 seconds (JVM running for 8.239)
+2019-04-19 16:18:58.395  INFO 10036 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-19 16:18:58.396  INFO 10036 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-04-19 16:18:58.416  INFO 10036 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 18 ms
+2019-04-19 16:18:58.469  INFO 10036 --- [http-nio-8080-exec-1] c.e.app.controller.ProductController     : Se hace petición GET
+2019-04-19 16:19:10.758  INFO 10036 --- [RMI TCP Connection(6)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-04-19 16:19:10.763  INFO 10036 --- [RMI TCP Connection(6)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-19 16:19:20.844  INFO 19032 --- [main] com.example.app.AppApplication           : Starting AppApplication on ANDRESF-GRANADOS with PID 19032 (D:\pipe\Colpatria\app\bin\main started by andres.granados in D:\pipe\Colpatria\app)
+2019-04-19 16:19:20.848  INFO 19032 --- [main] com.example.app.AppApplication           : No active profile set, falling back to default profiles: default
+2019-04-19 16:19:23.213  INFO 19032 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-04-19 16:19:23.243  INFO 19032 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-04-19 16:19:23.244  INFO 19032 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-19 16:19:23.420  INFO 19032 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-04-19 16:19:23.422  INFO 19032 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2526 ms
+2019-04-19 16:19:23.798  INFO 19032 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-04-19 16:19:23.986  INFO 19032 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-19 16:19:24.288  INFO 19032 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-04-19 16:19:24.341  INFO 19032 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-04-19 16:19:24.496  INFO 19032 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-04-19 16:19:25.130  INFO 19032 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-04-19 16:19:25.134  INFO 19032 --- [main] com.example.app.AppApplication           : Started AppApplication in 4.696 seconds (JVM running for 8.657)
+2019-04-19 16:19:26.811  INFO 19032 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-19 16:19:26.812  INFO 19032 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-04-19 16:19:26.825  INFO 19032 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 12 ms
+2019-04-19 16:19:26.870  INFO 19032 --- [http-nio-8080-exec-1] c.e.app.controller.ProductController     : Se hace petición GET
